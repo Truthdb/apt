@@ -1,0 +1,41 @@
+# reprepro distribution config for the TruthDB apt repository.
+#
+# ${KEY_ID} is substituted by the publish workflow with the value of the
+# APT_GPG_KEY_ID secret before reprepro is invoked. Do not commit the resolved
+# value here.
+
+Origin: Truthdb
+Label: Truthdb apt repository
+Codename: bookworm
+Suite: stable
+Components: main
+Architectures: amd64 source
+Description: TruthDB packages for Debian 12 (bookworm)
+SignWith: ${KEY_ID}
+
+Origin: Truthdb
+Label: Truthdb apt repository
+Codename: trixie
+Suite: stable
+Components: main
+Architectures: amd64 source
+Description: TruthDB packages for Debian 13 (trixie)
+SignWith: ${KEY_ID}
+
+Origin: Truthdb
+Label: Truthdb apt repository
+Codename: jammy
+Suite: stable
+Components: main
+Architectures: amd64 source
+Description: TruthDB packages for Ubuntu 22.04 (jammy)
+SignWith: ${KEY_ID}
+
+Origin: Truthdb
+Label: Truthdb apt repository
+Codename: noble
+Suite: stable
+Components: main
+Architectures: amd64 source
+Description: TruthDB packages for Ubuntu 24.04 (noble)
+SignWith: ${KEY_ID}

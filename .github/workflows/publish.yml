@@ -1,0 +1,107 @@
+name: Publish apt repo
+
+on:
+  repository_dispatch:
+    types: [new-debs]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag to fetch from Truthdb/truthdb (e.g. v0.1.0)'
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Determine tag
+        id: tag
+        run: |
+          set -euo pipefail
+          TAG="${{ github.event.client_payload.tag || github.event.inputs.tag }}"
+          if [ -z "$TAG" ]; then
+            echo "No tag provided in dispatch payload or workflow inputs." >&2
+            exit 1
+          fi
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
+      - name: Install reprepro and gpg
+        run: |
+          set -euo pipefail
+          export DEBIAN_FRONTEND=noninteractive
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends reprepro gpg
+
+      - name: Import GPG signing key
+        env:
+          APT_GPG_PRIVATE_KEY: ${{ secrets.APT_GPG_PRIVATE_KEY }}
+          APT_GPG_PASSPHRASE: ${{ secrets.APT_GPG_PASSPHRASE }}
+          APT_GPG_KEY_ID: ${{ secrets.APT_GPG_KEY_ID }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.gnupg
+          chmod 700 ~/.gnupg
+          # Long-lived cache so reprepro's many sign invocations don't re-prompt.
+          cat > ~/.gnupg/gpg-agent.conf <<EOF
+          allow-loopback-pinentry
+          default-cache-ttl 14400
+          max-cache-ttl 14400
+          EOF
+          echo "pinentry-mode loopback" > ~/.gnupg/gpg.conf
+          gpg-connect-agent reloadagent /bye
+
+          echo "$APT_GPG_PRIVATE_KEY" | gpg --batch --import
+
+          # Prime the agent's passphrase cache by signing a throwaway payload.
+          # Subsequent reprepro signings hit the cache instead of prompting.
+          echo "prime" | gpg --batch --yes --pinentry-mode loopback \
+            --passphrase "$APT_GPG_PASSPHRASE" \
+            --local-user "$APT_GPG_KEY_ID" \
+            --output /dev/null --detach-sign
+
+      - name: Substitute key ID into conf/distributions
+        env:
+          APT_GPG_KEY_ID: ${{ secrets.APT_GPG_KEY_ID }}
+        run: sed -i "s|\${KEY_ID}|$APT_GPG_KEY_ID|g" conf/distributions
+
+      - name: Download .deb assets from Truthdb/truthdb
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          mkdir -p incoming
+          gh release download "${{ steps.tag.outputs.tag }}" \
+            --repo Truthdb/truthdb \
+            --pattern '*.deb' \
+            --dir incoming
+          ls -la incoming/
+
+      - name: Include packages with reprepro
+        run: |
+          set -euo pipefail
+          for codename in bookworm trixie jammy noble; do
+            for deb in incoming/*.deb; do
+              reprepro -b . includedeb "$codename" "$deb"
+            done
+          done
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          git config user.name "apt-publish-bot"
+          git config user.email "apt-bot@truthdb.invalid"
+          git add dists pool db
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+            exit 0
+          fi
+          git commit -m "Publish ${{ steps.tag.outputs.tag }}"
+          git push
