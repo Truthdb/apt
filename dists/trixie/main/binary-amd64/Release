@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: Truthdb
+Label: Truthdb apt repository
+Architecture: amd64
+Description: TruthDB packages for Debian 13 (trixie)

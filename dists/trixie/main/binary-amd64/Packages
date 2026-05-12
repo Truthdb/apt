@@ -1,0 +1,41 @@
+Package: truthdb-cli
+Version: 0.1.40~rc1-1
+Architecture: amd64
+Maintainer: TruthDB Maintainers <contact@truthdb.io>
+Installed-Size: 1631
+Depends: libc6 (>= 2.35)
+Suggests: truthdb-server
+Priority: optional
+Section: database
+Filename: pool/main/t/truthdb-cli/truthdb-cli_0.1.40~rc1-1_amd64.deb
+Size: 554516
+SHA256: 6d11fcf13d266e7a2ffc7f1cab27d9bb86e925a8f1d00e7946ac39b07ae1f4e7
+SHA1: de6412e0bac8613fe64916a0ed5417dd72ea5d72
+MD5sum: 1842dc1b6fc89f4226ef609feeef964f
+Description: Command-line client and REPL for TruthDB, speaking the truthdb binary protocol
+ on TCP/9623.
+ Command-line client and interactive REPL for TruthDB. Connects to a
+ truthdb-server over its binary protocol on TCP/9623 (default host 127.0.0.1;
+ override with --host/--port or TRUTHDB_HOST/TRUTHDB_PORT).
+
+Package: truthdb-server
+Version: 0.1.40~rc1-1
+Architecture: amd64
+Maintainer: TruthDB Maintainers <contact@truthdb.io>
+Installed-Size: 2388
+Depends: adduser, init-system-helpers (>= 1.52), libc6 (>= 2.35)
+Suggests: truthdb-cli
+Priority: optional
+Section: database
+Filename: pool/main/t/truthdb-server/truthdb-server_0.1.40~rc1-1_amd64.deb
+Size: 798284
+SHA256: 758a340c0dbbc951788bbf5ea3ffdfd4aa878205a836653ffcaa7dc6711c81ec
+SHA1: 8514dfe8c2e1a89eca94918523d2943d2089baac
+MD5sum: 2c6f78195bee19383806487bc40b5b24
+Description: TruthDB database service: io_uring-backed storage with a custom binary protocol
+ on TCP/9623.
+ TruthDB is a database service with io_uring-backed storage and a custom binary
+ protocol on TCP/9623. This package installs the truthdb daemon, its hardened
+ systemd unit, and a system user to run the service. Configuration lives in
+ /etc/truthdb/truthdb.toml; data lives in /var/lib/truthdb.
+

@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: Truthdb
+Label: Truthdb apt repository
+Architecture: source
+Description: TruthDB packages for Debian 12 (bookworm)

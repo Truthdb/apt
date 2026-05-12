@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Truthdb
+Label: Truthdb apt repository
+Suite: stable
+Codename: noble
+Date: Tue, 12 May 2026 16:53:54 UTC
+Architectures: amd64
+Components: main
+Description: TruthDB packages for Ubuntu 24.04 (noble)
+MD5Sum:
+ 566f7f079a5fb4e57e28756e26b514ca 1696 main/binary-amd64/Packages
+ 73acbf08119874920ae62a04cd308a01 825 main/binary-amd64/Packages.gz
+ 66aead2b52c8eb6185d458edd573ff2a 153 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 2ab21d7dd7a41520acb80440d67e4d63 154 main/source/Release
+SHA1:
+ aecb8cb4f57d9c22286777790211921925dd2de9 1696 main/binary-amd64/Packages
+ 81d6228d410812056c1c9e99fe651158ac76b9b6 825 main/binary-amd64/Packages.gz
+ ca5b3e5aee41ea6b8d6a1e9ae585b5a26e3e1cd7 153 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 4f8a004b290d16a690bda177534bad553479b039 154 main/source/Release
+SHA256:
+ 537c74195b5d530a68c44a308036a8d5dd83ad663e46ad2f2b35cd830cab441a 1696 main/binary-amd64/Packages
+ 2ea296dd0079173339d2e259ac215f31a3be841330579176e6aaf6b5be15cb3d 825 main/binary-amd64/Packages.gz
+ 054a6745d218ea245d8184254f960d50d2d709bf1b99ccec54f7743015328212 153 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 27efeeb818478031eb14e1ce76304999fc1e6a723a1d119c2aa073fdfbc05dc6 154 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEL2YZb0EMFanREnMJ6/mqROtTAuIFAmoDWyIACgkQ6/mqROtT
+AuIxxxAAq1XauXBNO39tqhb8L5NZ2M0vinGrDf94ErjOznG1ugVkdXS7RyKVm65m
+msLm7F1Vy37Sau+J7vKgJG/Evk9IZ86m8icNkPnwj+bo/7sXpTyBVHpmEr2FD5/z
+4gUEJvyjYknMSu4vUJNnmYGn6sa8J+gfZA7RY+T/myNL6fKwKu+hp03rjVLTFUt+
+PcNENxhCSGsCkOZCq7oqWh7ErGEXj3PwYSVgGaPzYirVTMbBkwoK53YGMQEj6wEc
+jstbC+/t9ji1pijh+ZMDK0cA5l9SbTm658oicRXZ74TtptxZIjUEp7KaVpUv4BQU
+x+dTRvECJsG50XePK0RaIr2zWXDOhSPZIedfgZfueMtQ+VUcSEMiRQJHszdju5HD
+5MgzBHGB3cDpFsEvKA8R5hahvHExpzq9EsCACwk/FzjFo7KIFo7BYBcTfhZmoA7d
+H5l+xi4mdhilFxvSsD1B1p5wydTL3texh13y+ftwvBvdiw07L5OOE2a8mwL3j7tZ
+u0HvusSwQBgm8TYagy3K8fBUhEal+7mS9Yn5ng2KcBEW2ml0d/oEHiagNTc/5jpx
+itU4SK7M46NAFTQuHRu/60KWMa0/fr0ROmgdWYHU42loROyniGiHs5nbQ6WEQ0fr
+ikL0/zQiiE9sxframEoFJOdcXBXaFhbnsBz9v4oUQNB0kjtHAv4=
+=IzbK
+-----END PGP SIGNATURE-----

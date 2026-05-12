@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Truthdb
+Label: Truthdb apt repository
+Suite: stable
+Codename: jammy
+Date: Tue, 12 May 2026 16:53:54 UTC
+Architectures: amd64
+Components: main
+Description: TruthDB packages for Ubuntu 22.04 (jammy)
+MD5Sum:
+ 566f7f079a5fb4e57e28756e26b514ca 1696 main/binary-amd64/Packages
+ 73acbf08119874920ae62a04cd308a01 825 main/binary-amd64/Packages.gz
+ 05769d6079738d3323f8334a564913a3 153 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ a79ea170a0aba135cc056d0693d6f648 154 main/source/Release
+SHA1:
+ aecb8cb4f57d9c22286777790211921925dd2de9 1696 main/binary-amd64/Packages
+ 81d6228d410812056c1c9e99fe651158ac76b9b6 825 main/binary-amd64/Packages.gz
+ d12741ddbd4f178ae75bd242f9ecab93512695d5 153 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 26227ab163c33e7c311129b1d682590ef4f2e261 154 main/source/Release
+SHA256:
+ 537c74195b5d530a68c44a308036a8d5dd83ad663e46ad2f2b35cd830cab441a 1696 main/binary-amd64/Packages
+ 2ea296dd0079173339d2e259ac215f31a3be841330579176e6aaf6b5be15cb3d 825 main/binary-amd64/Packages.gz
+ faae79a09d128f798ce93524c83d81bbde96c28813298161c76ab11c836d004a 153 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 7fee9503375e2b9a8c510376598377bece73d80d1b26850b68cb8b78590b0d28 154 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEL2YZb0EMFanREnMJ6/mqROtTAuIFAmoDWyIACgkQ6/mqROtT
+AuKgGxAAkDhFi1Py11Xqs2WrvtUDfVPl47hnNrZUIbKDW9EvM+ePcR1Ke9M7w0U0
+D981XQQErTJWxP01HAX/Y2likYhEHsY4ttppgpSZig2OWr6Sq9Jiu8Ihu/iigkyR
+L5UlkSRrgrM3O38SxzzS5CcMw33bLHdpfqpU94LcVmgjHJsHqfMKJW7s9+DC2Xjg
++1Laz/GaScP30XfA5HQaacaKYBnIVvtGTK++8RjWp4arEGzYYcWBnPDHIdQcV9f9
+4zsiB5Jfir/QITZ/Y28/B+JN3HDkv+nc+R+FcUv3fiZJvIttttaqO7RXkgjTCmVp
+PRStZDsaxgezYu+rrjq46pjkjICvP76GdhpGTyFeRPc2WrNZr5prU7mfiWT5wZM3
+NSwWIL0VJGwftwHVDnL1q4VISNIC9Lg5rLPSgJzNNBaTb+8rwW8UP0UnZ/NquMzr
+0oQ563c9AADoj//EHi+UNYp3DMjMsrMUPrrQZXQeiwYmGXU8Nsk+YZaSqxeBjThK
+UnPHX11QeZc3sSCIDA7F1q14ZxSYzO0jkWapYrOx+AswOccA+eii3x43NZOqSIYX
+FiGQI6DsH9pcZ4rQjbPD/cnaC+BJV+znNJzSfuTsOjwO5QRwnbq7KJZaOj3w/hC3
+H8K3daJbNt2+PwFzwwoP5Y4lZ+KA4jCfha7hFEpYcvSttiuTbV4=
+=qvN9
+-----END PGP SIGNATURE-----

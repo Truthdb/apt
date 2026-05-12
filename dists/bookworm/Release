@@ -1,0 +1,29 @@
+Origin: Truthdb
+Label: Truthdb apt repository
+Suite: stable
+Codename: bookworm
+Date: Tue, 12 May 2026 16:53:53 UTC
+Architectures: amd64
+Components: main
+Description: TruthDB packages for Debian 12 (bookworm)
+MD5Sum:
+ 566f7f079a5fb4e57e28756e26b514ca 1696 main/binary-amd64/Packages
+ 73acbf08119874920ae62a04cd308a01 825 main/binary-amd64/Packages.gz
+ be60d51ac5c98bab1449bf48eafdbe82 153 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ bc2fdcd4fb456304c6bc92e63980aa77 154 main/source/Release
+SHA1:
+ aecb8cb4f57d9c22286777790211921925dd2de9 1696 main/binary-amd64/Packages
+ 81d6228d410812056c1c9e99fe651158ac76b9b6 825 main/binary-amd64/Packages.gz
+ 70dca323edab6a0ba886c7cf0e79ad525990c802 153 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 758a47c95abc02c6f7b5ada87ed0a43fe8bcc4f5 154 main/source/Release
+SHA256:
+ 537c74195b5d530a68c44a308036a8d5dd83ad663e46ad2f2b35cd830cab441a 1696 main/binary-amd64/Packages
+ 2ea296dd0079173339d2e259ac215f31a3be841330579176e6aaf6b5be15cb3d 825 main/binary-amd64/Packages.gz
+ d5d48ae74dda376dc8626931c0fdce64741d07b4fa65579de4cfc522877e9813 153 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 070b5c260864122e1b6563d1d4ac5d53e1769b5446932b9940a6d1585b8fbb60 154 main/source/Release

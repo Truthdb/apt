@@ -1,0 +1,29 @@
+Origin: Truthdb
+Label: Truthdb apt repository
+Suite: stable
+Codename: trixie
+Date: Tue, 12 May 2026 16:53:54 UTC
+Architectures: amd64
+Components: main
+Description: TruthDB packages for Debian 13 (trixie)
+MD5Sum:
+ 566f7f079a5fb4e57e28756e26b514ca 1696 main/binary-amd64/Packages
+ 73acbf08119874920ae62a04cd308a01 825 main/binary-amd64/Packages.gz
+ a3d210b0bf6c888bb78278f5fe804c44 151 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ b20bf9dcc73ac975fe29c402a15e5657 152 main/source/Release
+SHA1:
+ aecb8cb4f57d9c22286777790211921925dd2de9 1696 main/binary-amd64/Packages
+ 81d6228d410812056c1c9e99fe651158ac76b9b6 825 main/binary-amd64/Packages.gz
+ 50196dbfdd5dccaf6491d31764289570e621fd30 151 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ cf71796cf462b21a47989779218a15658a07d986 152 main/source/Release
+SHA256:
+ 537c74195b5d530a68c44a308036a8d5dd83ad663e46ad2f2b35cd830cab441a 1696 main/binary-amd64/Packages
+ 2ea296dd0079173339d2e259ac215f31a3be841330579176e6aaf6b5be15cb3d 825 main/binary-amd64/Packages.gz
+ 4588ee10c2ae760c3a2477aab259fa316b9d753b37f11f5047c17eea567d5bcf 151 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 8a88e8bbe05ded34d6f956f5971e58c4c05373235a16ae5d584ec44cbece77b0 152 main/source/Release
