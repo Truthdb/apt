@@ -1,17 +1,17 @@
 Package: truthdb-cli
-Version: 0.1.40~rc1-1
+Version: 0.1.41-1
 Architecture: amd64
 Maintainer: TruthDB Maintainers <contact@truthdb.io>
-Installed-Size: 1631
+Installed-Size: 2322
 Depends: libc6 (>= 2.35)
 Suggests: truthdb-server
 Priority: optional
 Section: database
-Filename: pool/main/t/truthdb-cli/truthdb-cli_0.1.40~rc1-1_amd64.deb
-Size: 554516
-SHA256: 6d11fcf13d266e7a2ffc7f1cab27d9bb86e925a8f1d00e7946ac39b07ae1f4e7
-SHA1: de6412e0bac8613fe64916a0ed5417dd72ea5d72
-MD5sum: 1842dc1b6fc89f4226ef609feeef964f
+Filename: pool/main/t/truthdb-cli/truthdb-cli_0.1.41-1_amd64.deb
+Size: 794140
+SHA256: ddeb8fc741eb4da93e0542aa3a1900dbc5f1bb69e30b3747fa8eb7cb21d46884
+SHA1: 032d07ea85ba3fa379a054ec6063d0799743fc36
+MD5sum: b4fc467f40fdbda808b9c6a65dc45b3a
 Description: Command-line client and REPL for TruthDB, speaking the truthdb binary protocol
  on TCP/9623.
  Command-line client and interactive REPL for TruthDB. Connects to a
@@ -19,19 +19,19 @@ Description: Command-line client and REPL for TruthDB, speaking the truthdb bina
  override with --host/--port or TRUTHDB_HOST/TRUTHDB_PORT).
 
 Package: truthdb-server
-Version: 0.1.40~rc1-1
+Version: 0.1.41-1
 Architecture: amd64
 Maintainer: TruthDB Maintainers <contact@truthdb.io>
-Installed-Size: 2388
+Installed-Size: 9164
 Depends: adduser, init-system-helpers (>= 1.52), libc6 (>= 2.35)
 Suggests: truthdb-cli
 Priority: optional
 Section: database
-Filename: pool/main/t/truthdb-server/truthdb-server_0.1.40~rc1-1_amd64.deb
-Size: 798284
-SHA256: 758a340c0dbbc951788bbf5ea3ffdfd4aa878205a836653ffcaa7dc6711c81ec
-SHA1: 8514dfe8c2e1a89eca94918523d2943d2089baac
-MD5sum: 2c6f78195bee19383806487bc40b5b24
+Filename: pool/main/t/truthdb-server/truthdb-server_0.1.41-1_amd64.deb
+Size: 2786800
+SHA256: 8088a33e8e07687a99d8a4f80859fcd82a1c4323ff021ff627294cd2338f4439
+SHA1: 66d9310239680ea8617c75423b2f4c660b639ca2
+MD5sum: 4903e114c6acc992b512225d29354a4a
 Description: TruthDB database service: io_uring-backed storage with a custom binary protocol
  on TCP/9623.
  TruthDB is a database service with io_uring-backed storage and a custom binary
