@@ -5,44 +5,44 @@ Origin: Truthdb
 Label: Truthdb apt repository
 Suite: stable
 Codename: noble
-Date: Sun, 18 Oct 2026 08:40:14 UTC
+Date: Sun, 18 Oct 2026 10:23:54 UTC
 Architectures: amd64
 Components: main
 Description: TruthDB packages for Ubuntu 24.04 (noble)
 MD5Sum:
- cfe90bc18645d830a91f7b203241711c 1681 main/binary-amd64/Packages
- 444b7723c76f6f408b4a8a2509a3a47c 819 main/binary-amd64/Packages.gz
+ c4ee439b07a4386cececc728523557c6 1681 main/binary-amd64/Packages
+ 7c5b0ab4d8efbffffadddd3650589921 821 main/binary-amd64/Packages.gz
  66aead2b52c8eb6185d458edd573ff2a 153 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  2ab21d7dd7a41520acb80440d67e4d63 154 main/source/Release
 SHA1:
- 6474dd31d6c8f930508401f557094dfe36321054 1681 main/binary-amd64/Packages
- 54310b36e3dd05d2abe925ccf6dff5d713d53ae2 819 main/binary-amd64/Packages.gz
+ 8d048986b6b8adc5be74265c0cbeb187c95cc8b0 1681 main/binary-amd64/Packages
+ 4c4d7bbc7330e0509ff61586b82f1a59cfda6639 821 main/binary-amd64/Packages.gz
  ca5b3e5aee41ea6b8d6a1e9ae585b5a26e3e1cd7 153 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  4f8a004b290d16a690bda177534bad553479b039 154 main/source/Release
 SHA256:
- 0906f29261a6a895a7a95d5d81585c16255b75b7c208f3e6248242c4c624c04a 1681 main/binary-amd64/Packages
- 877db5e2adf531f72204e5da70a574e14097df911c6a331430d02b52a59605ee 819 main/binary-amd64/Packages.gz
+ 95f42cb6b15ebbad1d21c87811329b15f52c67b045b185240883ce0c5a3f983a 1681 main/binary-amd64/Packages
+ 4a196210e495c200b56750143e29e51b08e97094577b6eb25ba0a2b2ea45981f 821 main/binary-amd64/Packages.gz
  054a6745d218ea245d8184254f960d50d2d709bf1b99ccec54f7743015328212 153 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
  27efeeb818478031eb14e1ce76304999fc1e6a723a1d119c2aa073fdfbc05dc6 154 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEL2YZb0EMFanREnMJ6/mqROtTAuIFAmrUhe4ACgkQ6/mqROtT
-AuIk5g/+OeLo2cr2zZ36sNlXq6jrt4/aFCWUQMdaJAC1V/CqmDTfL8RzPDR57gBF
-yyo9oJgBJIAOEFh8Lwp9SokpM6j/7fQv2QPx+6uyNZ2GlLEQfPDPEDImErblbjY4
-nMJLd5RB6kbqenO3bJAEHsCq/fT5IK3kFFRPYjYicSFHHxu+dZdEwmef5MQcVVzm
-wWQNYoVyjOAEgEPe5wAljTNRG5AByo2MsmqWvhfqxAy7gFs3AnLBHB7VVpb+d6K0
-zJpSQ4IC4S7vxjDcEJp3NoN2m0UFIcL/s82MJC9ZCPQl/29S3tIl1OPFTUhkrxfh
-Ltdg26deuNtu8QuUaW4NtG+iM6h40ypkCXHJjH77yVIPNoWJxfhJknFS6NiDu4zu
-D4r+u6FinPZ2A2OQZBxW7yhRE+mVyswCzHQBxVSDo8+WS6rYIwI1qLnV8cDU0/Rs
-1uVtTZo+VZUfg5eW6LTTqA8BMX7A5qNzmX7b9z2qV5dqAmxE98zeKsQJqwAyRgSd
-VrQvMVu2iynwFSewdZ9JCPEHAZhqVRO+cx5S4j6R38/Qi+vBHzrN+QPFZVpuwxFe
-nAag9SBCkmyWp5a3KHS5/nQ1FPHGrwlFV6t8OFkWbWvYVje4+5pj25wmF19Ag6lE
-inYcPb65hKMs9U2Yugwu7cE7bKItlbiEDgHxUWsragPjEYkHfqM=
-=J38b
+iQIzBAEBCgAdFiEEL2YZb0EMFanREnMJ6/mqROtTAuIFAmrUnjoACgkQ6/mqROtT
+AuIrXA/7BOmpPEVLDajgQx/GuOglgf0GeZNwjh3uFhe01TYlgMWFcGzD5rN2PgLg
+6OnfV1DCokpXOCWRtBnFT5jBPx34wDfLm1xqMNtDoK1rtfJ7wxmH5gITQUE6McPF
+f2w7yKZc2f9/DgRW0VXMhbOVtsVdiM7xsC6Aav40kP52TmMMvYMNHkt13C3uFd1g
+ZIYLDYl1VwnJJd8qj5wdEvVtg6H+TeiwLt7UDEMgoPnUEdGsnN/qYVQtLsiKJC7W
+B5s9BCq1Vyih4qH8NZaR5xfve/yIcnZ5lbKdLLNO+/ayA5QaNZEVmAwRQ2RFUJFu
+675rVkkmbmZTcOhVdYKiklFitioBU64WXNKb3s83L1eGIqfzkVgXZzTes60h0Hq/
+Kyyn+eKTltG25zLb/8OWl2k2PQoaizgmUGOGg39/rg3r+iSuyXYlAmfyO7d1uT4g
+bx2xfTr0MlhcI5TcmgVF6YLWdDjniT8u74aEkmDSXwIyhQFlveG4FTP+JxTEtKiS
+DeceOgltOGsG+UDGanotOuRQG9II5OCNeFj1hK6V5ILvMeZ/fx33IHd5KgTscKzU
+0+lQ2dKTLKRpRntn0+pR6ksqi0Y7trDdPPSaS4uMcEi/YQ5Wq9MKYLT+BRWi00PF
+a/DY+/QQB9Mk/6yNuXNsN2VNlZcZmsG9rJAGvzrxmbzD6957iLs=
+=scHc
 -----END PGP SIGNATURE-----

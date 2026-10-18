@@ -2,27 +2,27 @@ Origin: Truthdb
 Label: Truthdb apt repository
 Suite: stable
 Codename: trixie
-Date: Sun, 18 Oct 2026 08:40:13 UTC
+Date: Sun, 18 Oct 2026 10:23:53 UTC
 Architectures: amd64
 Components: main
 Description: TruthDB packages for Debian 13 (trixie)
 MD5Sum:
- cfe90bc18645d830a91f7b203241711c 1681 main/binary-amd64/Packages
- 444b7723c76f6f408b4a8a2509a3a47c 819 main/binary-amd64/Packages.gz
+ c4ee439b07a4386cececc728523557c6 1681 main/binary-amd64/Packages
+ 7c5b0ab4d8efbffffadddd3650589921 821 main/binary-amd64/Packages.gz
  a3d210b0bf6c888bb78278f5fe804c44 151 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  b20bf9dcc73ac975fe29c402a15e5657 152 main/source/Release
 SHA1:
- 6474dd31d6c8f930508401f557094dfe36321054 1681 main/binary-amd64/Packages
- 54310b36e3dd05d2abe925ccf6dff5d713d53ae2 819 main/binary-amd64/Packages.gz
+ 8d048986b6b8adc5be74265c0cbeb187c95cc8b0 1681 main/binary-amd64/Packages
+ 4c4d7bbc7330e0509ff61586b82f1a59cfda6639 821 main/binary-amd64/Packages.gz
  50196dbfdd5dccaf6491d31764289570e621fd30 151 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  cf71796cf462b21a47989779218a15658a07d986 152 main/source/Release
 SHA256:
- 0906f29261a6a895a7a95d5d81585c16255b75b7c208f3e6248242c4c624c04a 1681 main/binary-amd64/Packages
- 877db5e2adf531f72204e5da70a574e14097df911c6a331430d02b52a59605ee 819 main/binary-amd64/Packages.gz
+ 95f42cb6b15ebbad1d21c87811329b15f52c67b045b185240883ce0c5a3f983a 1681 main/binary-amd64/Packages
+ 4a196210e495c200b56750143e29e51b08e97094577b6eb25ba0a2b2ea45981f 821 main/binary-amd64/Packages.gz
  4588ee10c2ae760c3a2477aab259fa316b9d753b37f11f5047c17eea567d5bcf 151 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz

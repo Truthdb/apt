@@ -5,44 +5,44 @@ Origin: Truthdb
 Label: Truthdb apt repository
 Suite: stable
 Codename: bookworm
-Date: Sun, 18 Oct 2026 08:40:13 UTC
+Date: Sun, 18 Oct 2026 10:23:53 UTC
 Architectures: amd64
 Components: main
 Description: TruthDB packages for Debian 12 (bookworm)
 MD5Sum:
- cfe90bc18645d830a91f7b203241711c 1681 main/binary-amd64/Packages
- 444b7723c76f6f408b4a8a2509a3a47c 819 main/binary-amd64/Packages.gz
+ c4ee439b07a4386cececc728523557c6 1681 main/binary-amd64/Packages
+ 7c5b0ab4d8efbffffadddd3650589921 821 main/binary-amd64/Packages.gz
  be60d51ac5c98bab1449bf48eafdbe82 153 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  bc2fdcd4fb456304c6bc92e63980aa77 154 main/source/Release
 SHA1:
- 6474dd31d6c8f930508401f557094dfe36321054 1681 main/binary-amd64/Packages
- 54310b36e3dd05d2abe925ccf6dff5d713d53ae2 819 main/binary-amd64/Packages.gz
+ 8d048986b6b8adc5be74265c0cbeb187c95cc8b0 1681 main/binary-amd64/Packages
+ 4c4d7bbc7330e0509ff61586b82f1a59cfda6639 821 main/binary-amd64/Packages.gz
  70dca323edab6a0ba886c7cf0e79ad525990c802 153 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  758a47c95abc02c6f7b5ada87ed0a43fe8bcc4f5 154 main/source/Release
 SHA256:
- 0906f29261a6a895a7a95d5d81585c16255b75b7c208f3e6248242c4c624c04a 1681 main/binary-amd64/Packages
- 877db5e2adf531f72204e5da70a574e14097df911c6a331430d02b52a59605ee 819 main/binary-amd64/Packages.gz
+ 95f42cb6b15ebbad1d21c87811329b15f52c67b045b185240883ce0c5a3f983a 1681 main/binary-amd64/Packages
+ 4a196210e495c200b56750143e29e51b08e97094577b6eb25ba0a2b2ea45981f 821 main/binary-amd64/Packages.gz
  d5d48ae74dda376dc8626931c0fdce64741d07b4fa65579de4cfc522877e9813 153 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
  070b5c260864122e1b6563d1d4ac5d53e1769b5446932b9940a6d1585b8fbb60 154 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEL2YZb0EMFanREnMJ6/mqROtTAuIFAmrUhe0ACgkQ6/mqROtT
-AuLzeRAAhAb9hbBr4NZPCUQ6TRzWV/NsfoiBX4odytnwjyhgdjiRzGFuGY0T/dgS
-MCRKuO6yZtR3XQCvACkcd7AKYQZwXLWSxVULG9XKZo0Q2d46k4JeJA4mdscpUel5
-tozxVu0Nyd+Gtoah5yAy9PvGlBBawmNr5ehy6FuMtMJVUg/iBturzCpUPgmGi+fb
-yShKcWL74lEU4lMqBYHFJLiDDWR1RSGWggcHpnUO50Zukp278AoqNsgzol+C4wm6
-Rzni2mx2KmF2GVL1cFmQpStrogFGew8wrJJBMV7aLxRpI0QGB4bHHikUDXOddXM8
-rQaXVCjAd5D0kBfmEVQkSSEAKNz7k3S7vUA70Maj2Bgsl+OqJNGguCQqGYUVK/1d
-RpAlSn7HIKTZIZXH02cQ3jRaMCDSCLShLSmT7Bqeinn5Ow+muScMnUU6fKuwskkW
-SnaOjtaoGsA+f7QAMOspC0A2SlgLKP8p2UOJh/qzCnBtDM4JVITgY2nHkWkdVHma
-WbQtwpREsLj0n3jMzfS1N0u6Vc/poBQ0wCy1FnJsMe+wExSI6eV2XQpe4Q2pQ1yF
-OiLkYgGH7vUUPNsT/z6qf9XhxwAKgGEJz/a7XzFln9CfPlQVCAXoqOxZOn7LPEtF
-95O/xqJu+nAyyTuPyC/9WAkSdTr8ZINn+Ec/xVDvTzbZbgyJx2M=
-=eQeO
+iQIzBAEBCgAdFiEEL2YZb0EMFanREnMJ6/mqROtTAuIFAmrUnjkACgkQ6/mqROtT
+AuL4Ng/+KntpWlXV/5WHRqvudRJytDgnoz2Szo8LywqUY5SWFTi/U9FD6fu+eJ7e
+1MJQkefmi6d93Ka9h+2shUQ+HalL126gQGSfljpbgfZpFRvsXtyA/0iJFabAtfRd
+PGXUiSss3vl7v4Ai014kmWYX8V3QoURqQDvseCrjrUDmULf6hF5ZezNEnThD0sSA
+ROY4SMkoapHVDGL2n2wgOU9jfSiiioWPX0Gdl71SHVDkBVq1rLt2SITk5eNLFPx7
+3K/vL7B01eKWkJcwYP+86VadfikFw7Pc3gioznCxiYQSkymbmsYenP4YoBzHk9Be
+xVDAc/KrhVa1u+zFJd5SzX1/jUgS/D3s5fz2FqFgxJk0WRFkjmRiis7IyRoUlxnF
+bgBHBXsnBV9gVkruytKuGa8dTj431ths9+9P0ag6FAtZPNtLc+YkaSmiS5xQ8WsK
+gaougYKnVaAj48WzOOoa1OiZ4SyucaFvdWKNg5i/R+bMRtownQOt2ZNhGA081GQu
+uGG55S+abPTX9MaLy3+8sVD6gHEcw2/CxcGWMGRvWbf05MR2B2Ic3QEy+HEncJ6r
+WhddQ2DiYKOHcx5/AN2TuFkKO6RLugRMhqO/jgxHfrnZeDKsvBThpdmUhXbnUJhL
+P31/JMqBJLoKcTEO4cblLelgjj+xfr0FCqHhOSmiztNbowj8vuA=
+=DIn9
 -----END PGP SIGNATURE-----
